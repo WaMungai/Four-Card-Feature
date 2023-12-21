@@ -57,7 +57,7 @@ main .cards article h2{
     font-size:1.25rem;
     margin-bottom: 1rem;
 }
-main .card article p{
+main .cards article p{
     margin-bottom:3rem;
 }
 main .cards article img{
@@ -83,7 +83,7 @@ main .cards article img{
     main .cards article{
         width:400px;
     }
-    main .cards article:n-th-child(odd){
+    main .cards article:nth-child(odd){
         transform:translateY(50%);
     };
     }
